@@ -49,7 +49,7 @@ const SkillsChart: React.FC = () => {
         <div className="bg-white p-6 rounded-3xl shadow-xl border border-slate-100">
            <h3 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
             <span className="w-2 h-8 bg-teal-500 rounded-full"></span>
-            Core Competencies
+            Core Competencies & Languages
           </h3>
           <div className="space-y-4">
             {CERTIFICATIONS.map((cert, index) => (

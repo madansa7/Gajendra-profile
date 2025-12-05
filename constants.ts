@@ -7,29 +7,29 @@ export const PROFILE = {
   email: "gajendrachouhan@live.com",
   phone: "+91 95106 96106",
   linkedin: "", 
-  summary: "Dedicated and compassionate Healthcare Professional with over 5 years of specialized experience in Oncology and General Nursing. Currently serving as an Oncology Nurse at KD Hospital, leveraging deep expertise in chemotherapy administration, patient safety, and symptom management. Proven track record in team leadership and clinical operations, committed to delivering high-quality patient-centric care.",
+  summary: "Dedicated and compassionate Healthcare Professional with experience in Oncology and General Nursing. Currently serving as an Oncology Nurse at KD Hospital, Ahmedabad. Strong background as a Team Lead with expertise in patient care, leadership, and organizational management. Punctual, disciplined, and possessing excellent communication skills with a focus on delivering quality health care.",
 };
 
 export const TOP_SKILLS_DATA: SkillMetric[] = [
   { subject: 'Oncology Care', A: 95, fullMark: 100 },
-  { subject: 'Patient Safety', A: 98, fullMark: 100 },
-  { subject: 'Team Leadership', A: 90, fullMark: 100 },
-  { subject: 'Clinical Ops', A: 88, fullMark: 100 },
+  { subject: 'Patient Safety', A: 90, fullMark: 100 },
+  { subject: 'Team Leadership', A: 85, fullMark: 100 },
   { subject: 'Communication', A: 92, fullMark: 100 },
-  { subject: 'Critical Thinking', A: 85, fullMark: 100 },
+  { subject: 'Clinical Ops', A: 80, fullMark: 100 },
+  { subject: 'Punctuality', A: 95, fullMark: 100 },
 ];
 
 export const CERTIFICATIONS: CertificationItem[] = [
-  { name: "Team Management & Leadership" },
-  { name: "Oncology Nursing Specialization" },
-  { name: "Patient Care & Counseling" },
-  { name: "Clinical Documentation" },
+  { name: "Team Leadership & Management" },
+  { name: "Oncology Nursing" },
+  { name: "Patient Care & Safety" },
+  { name: "Organizational Leadership" },
   { name: "Languages: English, Hindi, Gujarati, Rajasthani" },
 ];
 
 export const EDUCATION: EducationItem[] = [
   {
-    institution: "Madhya Pradesh Medical Science University",
+    institution: "Madhya Pradesh Medical Science University, Jabalpur",
     degree: "Post Basic B.Sc. Nursing",
     period: "Result Awaited"
   },
@@ -42,6 +42,11 @@ export const EDUCATION: EducationItem[] = [
     institution: "RBSE, Ajmer",
     degree: "Higher Secondary (10+2)",
     period: "2008"
+  },
+  {
+    institution: "RBSE, Ajmer",
+    degree: "Secondary (10th)",
+    period: "2006"
   }
 ];
 
@@ -53,10 +58,9 @@ export const EXPERIENCE: ExperienceItem[] = [
     duration: "Current",
     location: "Ahmedabad, Gujarat",
     description: [
-      "Provide specialized nursing care to oncology patients, including administration of chemotherapy and symptom management.",
-      "Monitor patient health conditions and vital signs, reporting changes to the medical team immediately.",
-      "Educate patients and families regarding treatment plans, side effects, and home care strategies.",
-      "Collaborate with a multidisciplinary team to ensure comprehensive patient care and safety."
+      "Currently working as an Oncology Nurse, providing specialized care to cancer patients.",
+      "Utilizing skills and experience to ensure quality health care delivery.",
+      "Focusing on patient safety and comfort in a high-acuity environment."
     ]
   },
   {
@@ -66,10 +70,9 @@ export const EXPERIENCE: ExperienceItem[] = [
     duration: "3 years",
     location: "Ahmedabad, Gujarat",
     description: [
-      "Led and supervised a team of nurses to ensure efficient departmental operations and high standards of care.",
-      "Managed shift schedules, patient assignments, and resource allocation.",
-      "Acted as a liaison between the nursing staff, physicians, and hospital administration.",
-      "Mentored junior staff and conducted training on new protocols and patient safety measures."
+      "Served as a Team Lead (Incharge), managing nursing staff and daily operations.",
+      "Demonstrated strong leadership skills in organizing departmental workflow.",
+      "Ensured efficient coordination between nursing staff and physicians."
     ]
   },
   {
@@ -79,10 +82,8 @@ export const EXPERIENCE: ExperienceItem[] = [
     duration: "1 year",
     location: "India",
     description: [
-      "Delivered compassionate bedside care to patients in a speciality setting.",
-      "Administered medications and treatments as prescribed by physicians.",
-      "Maintained accurate patient records and documentation regarding patient progress.",
-      "Assisted doctors during medical procedures and ensured a sterile environment."
+      "Gained foundational experience as a staff nurse in a speciality hospital setting.",
+      "Provided compassionate bedside care and assisted with medical procedures."
     ]
   },
   {
@@ -92,9 +93,8 @@ export const EXPERIENCE: ExperienceItem[] = [
     duration: "6 months",
     location: "India",
     description: [
-      "Provided quality healthcare services and support to patients.",
-      "Conducted initial patient assessments and prepared patients for examinations.",
-      "Ensured adherence to hospital policies and infection control standards."
+      "Worked as a staff nurse, contributing to patient care and recovery.",
+      "Developed key nursing skills in a professional healthcare environment."
     ]
   }
 ];
