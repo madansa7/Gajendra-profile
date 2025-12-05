@@ -6,8 +6,8 @@ export const PROFILE = {
   location: "Gandhinagar, Gujarat, India",
   email: "gajendrachouhan@live.com",
   phone: "+91 95106 96106",
-  linkedin: "", // Not provided in resume
-  summary: "Dedicated and compassionate Healthcare Professional with over 5 years of specialized experience in Oncology and General Nursing. Currently serving as an Oncology Nurse at KD Hospital with a proven track record in team leadership and patient management. I am committed to providing high-quality healthcare, ensuring patient safety, and leveraging my clinical skills to support medical teams and improve patient outcomes.",
+  linkedin: "", 
+  summary: "Dedicated and compassionate Healthcare Professional with over 5 years of specialized experience in Oncology and General Nursing. Currently serving as an Oncology Nurse at KD Hospital, leveraging deep expertise in chemotherapy administration, patient safety, and symptom management. Proven track record in team leadership and clinical operations, committed to delivering high-quality patient-centric care.",
 };
 
 export const TOP_SKILLS_DATA: SkillMetric[] = [
@@ -24,17 +24,17 @@ export const CERTIFICATIONS: CertificationItem[] = [
   { name: "Oncology Nursing Specialization" },
   { name: "Patient Care & Counseling" },
   { name: "Clinical Documentation" },
-  { name: "Multilingual: English, Hindi, Gujarati" },
+  { name: "Languages: English, Hindi, Gujarati, Rajasthani" },
 ];
 
 export const EDUCATION: EducationItem[] = [
   {
-    institution: "Madhyapradesh Medical Science University",
+    institution: "Madhya Pradesh Medical Science University",
     degree: "Post Basic B.Sc. Nursing",
     period: "Result Awaited"
   },
   {
-    institution: "Rajiv Gandhi University, Bangalore",
+    institution: "Rajiv Gandhi University of Health Sciences, Bangalore",
     degree: "GNM (General Nursing and Midwifery)",
     period: "2010 - 2017"
   },
